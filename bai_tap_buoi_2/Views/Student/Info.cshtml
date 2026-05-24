@@ -1,0 +1,20 @@
+@model List<bai_tap_buoi_2.Models.Student>
+
+<h1>Danh sach sinh vien</h1>
+
+<table border="1" cellpadding="10">
+    <tr>
+        <th>Ten</th>
+        <th>Tuoi</th>
+        <th>Nganh</th>
+    </tr>
+
+    @foreach (var sv in Model)
+    {
+        <tr>
+            <td>@sv.Name</td>
+            <td>@sv.Age</td>
+            <td>@sv.Major</td>
+        </tr>
+    }
+</table>
