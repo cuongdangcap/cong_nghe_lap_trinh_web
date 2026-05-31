@@ -1,0 +1,30 @@
+@model Bai6_Validation.Models.Book
+
+<h2>Thêm sách</h2>
+
+<form method="post">
+
+    <div>
+        <label>Tên</label>
+        <input asp-for="Name" />
+        <span asp-validation-for="Name" style="color:red"></span>
+    </div>
+
+    <br />
+
+    <div>
+        <label>Giá</label>
+        <input type="number" asp-for="Price" />
+        <span asp-validation-for="Price" style="color:red"></span>
+    </div>
+
+    <br />
+
+    <button type="submit">Lưu</button>
+
+</form>
+
+@if(ViewBag.Message != null)
+{
+    <h3 style="color:green">@ViewBag.Message</h3>
+}
