@@ -95,3 +95,4 @@ D:\công_nghệ_lập_trình_web\bai_tap_buoi_1\obj\Debug\net10.0\refint\bai_tap
 D:\công_nghệ_lập_trình_web\bai_tap_buoi_1\obj\Debug\net10.0\bai_tap_buoi_1.pdb
 D:\công_nghệ_lập_trình_web\bai_tap_buoi_1\obj\Debug\net10.0\bai_tap_buoi_1.genruntimeconfig.cache
 D:\công_nghệ_lập_trình_web\bai_tap_buoi_1\obj\Debug\net10.0\ref\bai_tap_buoi_1.dll
+D:\công_nghệ_lập_trình_web\bai_tap_buoi_1\obj\Debug\net10.0\bai_tap_buoi_1.sourcelink.json
