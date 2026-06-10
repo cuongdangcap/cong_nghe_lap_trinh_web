@@ -1,0 +1,24 @@
+﻿@model Lesson3_CNLTWeb.Models.Book
+
+<div class="container mt-4">
+    <h2>Thêm Sách Mới</h2>
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            <form asp-action="Create" method="post">
+                <div class="form-group mb-3">
+                    <label asp-for="Name" class="control-label">Tên sách</label>
+                    <input asp-for="Name" class="form-control" required />
+                </div>
+                <div class="form-group mb-3">
+                    <label asp-for="Price" class="control-label">Giá</label>
+                    <input asp-for="Price" type="number" step="0.01" class="form-control" required />
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-success">Lưu sách</button>
+                    <a asp-action="Index" class="btn btn-secondary">Quay lại</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
