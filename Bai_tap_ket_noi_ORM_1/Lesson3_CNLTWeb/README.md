@@ -1,1 +1,1 @@
-Bài tập ORM 1
+Link video: https://cmcuni-my.sharepoint.com/:v:/g/personal/bit240048_st_cmcu_edu_vn/IQAexHnMpGN0Ta56AAZJ8DffAcfCTyRSsjwo9z238QT-u0o?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=m15uau
