@@ -1,0 +1,31 @@
+﻿@model List<bai_tap_buoi_8.Models.Book>
+
+<h2>Danh sách sách</h2>
+
+<a asp-action="Create">Thêm sách</a>
+
+<table class="table table-bordered">
+
+    <tr>
+        <th>Tên</th>
+        <th>Giá</th>
+        <th>Hình ảnh</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Name</td>
+
+            <td>@item.Price</td>
+
+            <td>
+                @if (!string.IsNullOrEmpty(item.ImagePath))
+                {
+                    <img src="~/images/@item.ImagePath" width="120" />
+                }
+            </td>
+        </tr>
+    }
+
+</table>
