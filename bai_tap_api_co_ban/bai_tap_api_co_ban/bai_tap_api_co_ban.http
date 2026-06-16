@@ -1,0 +1,7 @@
+POST https://localhost:7272/api/products
+Content-Type: application/json
+
+{
+    "name": "Laptop",
+    "price": 15000
+  }
