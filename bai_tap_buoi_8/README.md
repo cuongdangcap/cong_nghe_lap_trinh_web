@@ -1,0 +1,1 @@
+Link video: https://cmcuni-my.sharepoint.com/:v:/g/personal/bit240048_st_cmcu_edu_vn/IQCanPyJxwVaRJ-0SEObRyT6AXsxApB5jDz21sAu7zB2OZU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=2xcqjJ
