@@ -1,0 +1,76 @@
+@model midterm_de3_BIT_240048.Models.Dish_BIT_240048
+
+@{
+    ViewData["Title"] = "Chi tiết món ăn";
+}
+
+<h1>Chi tiết món ăn</h1>
+
+<div>
+    <hr />
+
+    <dl class="row">
+
+        <dt class="col-sm-2">Tên món</dt>
+        <dd class="col-sm-10">@Model.Name</dd>
+
+        <dt class="col-sm-2">Giá</dt>
+        <dd class="col-sm-10">@Model.Price</dd>
+
+        <dt class="col-sm-2">Thời gian</dt>
+        <dd class="col-sm-10">@Model.PreparationTime phút</dd>
+
+        <dt class="col-sm-2">Trạng thái</dt>
+        <dd class="col-sm-10">
+            @(Model.IsAvailable ? "Đang bán" : "Ngừng bán")
+        </dd>
+
+        <dt class="col-sm-2">Mô tả</dt>
+        <dd class="col-sm-10">@Model.Description</dd>
+
+        <dt class="col-sm-2">Loại món</dt>
+        <dd class="col-sm-10">
+            @Model.DishCategory?.Name
+        </dd>
+
+    </dl>
+
+    <h4>Ảnh món ăn</h4>
+
+    @if (Model.Images != null && Model.Images.Any())
+    {
+        <div class="row">
+
+            @foreach (var image in Model.Images)
+            {
+                <div class="col-md-3 mb-3">
+
+                    @if (image.IsThumbnail)
+                    {
+                        <p>
+                            <strong>Ảnh đại diện</strong>
+                        </p>
+                    }
+
+                    <img src="@image.ImageUrl"
+                         class="img-fluid border rounded"
+                         style="height:200px; object-fit:cover;" />
+
+                </div>
+            }
+
+        </div>
+    }
+    else
+    {
+        <p>Chưa có ảnh.</p>
+    }
+
+</div>
+
+<div>
+    <a asp-action="Edit"
+       asp-route-id="@Model.Id">Edit</a> |
+
+    <a asp-action="Index">Back to List</a>
+</div>
